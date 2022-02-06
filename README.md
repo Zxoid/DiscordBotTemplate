@@ -1,2 +1,2 @@
 # DiscordBotTemplate
-A free template for a basic discord bot
+##A free template for a basic discord bot 
