@@ -2,12 +2,12 @@ import discord
 from discord.ext import commands
 
 client = commands.Bot(command_prefix = '')
-<!-- put custom prefix insife of the apostrophe -->
+(''') put custom prefix insife of the apostrophe (''')
 
 @client.event
 async def on_ready ():
   await client.change_presence(status=discord.Status.Online, activity=discord.Game(''))
-<!-- put custom game inside of the apostrophe -->
+ (''') put custom game inside of the apostrophe (''')
 
   print('Bot Is Online.')
 
@@ -32,4 +32,4 @@ async def kick(ctx, member : discord.Member, *, reason=(non_kick)):
 async def ban(ctx, member : discord.Member, * , reason=None): await member.ban(reason=reason)
 
 client.run ('')
-<!-- Put your discord authentication token inside of the apostrophe -->
+(''') Put your discord authentication token inside of the apostrophe (''')
